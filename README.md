@@ -24,7 +24,9 @@ We will be using Google Colab. Point your browser to:
 
 On the Welcome page, click on `New Python 3 Notebook`
 
-Add image here
+<p align="center">
+  <img src="colab-new.png" width="500"/>
+</p>
 
 If you run a script which creates/ downloads files, the files will NOT persist after the allocated instance is shutdown. To save files, you need to permit your Colaboratory instance to read and write files to your Google Drive. Add the following code to the first cell and run it by clicking on the Run button or Shift+Enter.
 
