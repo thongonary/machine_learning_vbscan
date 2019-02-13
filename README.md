@@ -32,7 +32,7 @@ from google.colab import drive
 drive.mount('/content/gdrive', force_remount=True)
 ```
 
-Now add the following code to the next cell to clone this Github repository to your Google Drive:
+Now run the following code in the next cell to clone this Github repository to your Google Drive:
 ```
 !git clone https://github.com/thongonary/machine_learning_vbscan.git /content/gdrive/My\ Drive/machine-learning-vbscan
 ```
