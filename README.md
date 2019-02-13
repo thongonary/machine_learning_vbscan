@@ -1,6 +1,7 @@
 # VBSCan@Ljubljana: Training Event - Machine Learning Short Exercises
 
 Based on CMSDAS 2019 @LPC Machine Learning Exercise by Javier Duarte
+
 Editted by Thong Nguyen for the VBScan@Ljubljana training event.
 
 ## Introduction
@@ -11,8 +12,8 @@ This is a set of tutorials for the VBScan@Ljubljana training event. They are int
 
  &nbsp;1. &nbsp;[`1-plotting.ipynb`](1-plotting.ipynb): plotting with `matplotlib`  
  &nbsp;2. &nbsp;[`2-dense.ipynb`](2-dense.ipynb): building, training, and evaluating a fully connected (dense) neural network in `Keras`  
- &nbsp;3 [`3-dense-pytorch.ipynb`](3-dense-pytorch.ipynb): Same with notebook 2, but with `PyTorch`  
- &nbsp;4 [`4-dense-bayesian-optimization.ipynb`](4-dense-bayesian-optimization.ipynb): Optimize a dense network with Bayesian optimization  
+ &nbsp;3 &nbsp;[`3-dense-pytorch.ipynb`](3-dense-pytorch.ipynb): Same with notebook 2, but with `PyTorch`  
+ &nbsp;4 &nbsp;[`4-dense-bayesian-optimization.ipynb`](4-dense-bayesian-optimization.ipynb): Optimize a dense network with Bayesian optimization  
  &nbsp;5. &nbsp;[`5-conv2d.ipynb`](5-conv2d.ipynb): building, training, and evaluating a 2D convolutional neural network in `Keras`  
 
 ## Setup
