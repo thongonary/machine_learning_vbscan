@@ -22,20 +22,37 @@ We will be using Google Colab. Point your browser to:
 
 [https://colab.research.google.com/](https://colab.research.google.com/)
 
-On the Welcome page, click on `New Python 3 Notebook`
+On the Welcome page, click on `NEW PYTHON 3 NOTEBOOK`
 
 <p align="center">
-  <img src="colab-new.png" width="500"/>
+  <img src="colab-new.png" width="600"/>
 </p>
 
-If you run a script which creates/ downloads files, the files will NOT persist after the allocated instance is shutdown. To save files, you need to permit your Colaboratory instance to read and write files to your Google Drive. Add the following code to the first cell and run it by clicking on the Run button or Shift+Enter.
-
+If you run a script which creates/ downloads files, the files will NOT persist after the allocated instance is shutdown. To save files, you need to permit your Colaboratory instance to read and write files to your Google Drive. Add the following code to the first cell:
 ```
 from google.colab import drive
 drive.mount('/content/gdrive', force_remount=True)
 ```
+Then run it by clicking on the play button or Shift+Enter.
+<p align="center">
+  <img src="colab-firstcell.png" width="600"/>
+</p>
+You'll need to authenticate Google Colab to mount to your Drive. Follow the instruction on the output.
 
-Now run the following code in the next cell to clone this Github repository to your Google Drive:
+Now we will clone this repository to your Drive. Copy and run this line:
 ```
 !git clone https://github.com/thongonary/machine_learning_vbscan.git /content/gdrive/My\ Drive/machine-learning-vbscan
 ```
+<p align="center">
+  <img src="colab-secondcell.png" width="800"/>
+</p>
+
+Go back to your Google Drive tab, you should see the cloned repository there:
+<p align="center">
+  <img src="colab-gdrive.png" width="500"/>
+</p>
+
+Inside, there are a list of notebook that we will use for this exercise. To open a notebook, right click on it and select Open with Collabotory.
+<p align="center">
+  <img src="colab-open.png" width="700"/>
+</p>
