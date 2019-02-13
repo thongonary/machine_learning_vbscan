@@ -1,4 +1,4 @@
-# VBSCan@Ljubljana: Training Event - Machine Learning Short Exercises
+# VBSCan@Ljubljana: Training Event - Machine Learning Tutorials
 
 Based on CMSDAS 2019 @LPC Machine Learning Exercise by Javier Duarte
 
