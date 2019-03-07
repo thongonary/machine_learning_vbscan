@@ -1,12 +1,10 @@
-# VBSCan@Ljubljana: Training Event - Machine Learning Tutorials
+# Machine Learning Tutorials
 
-Based on CMSDAS 2019 @LPC Machine Learning Exercise by Javier Duarte
-
-Editted by Thong Nguyen for the VBScan@Ljubljana training event.
+Largely based on CMSDAS 2019 @LPC Machine Learning Exercise by Javier Duarte
 
 ## Introduction
 
-This is a set of tutorials for the VBScan@Ljubljana training event. They are intended to show you how to build machine learning models in python (`Keras`/`TensorFlow`) and use them in your analyses. We will build event-level classifiers for differentiating VBF Higgs and standard model background 4 muon events and jet-level classifiers for differentiating boosted W boson jets from QCD jets.
+This is a set of tutorials for the VBScan@Ljubljana training event. They are intended to show you how to build machine learning models in python (`Pytorch` and `Keras`/`TensorFlow`) and use them in your analyses. We will build event-level classifiers for differentiating VBF Higgs and standard model background 4 muon events and jet-level classifiers for differentiating boosted W boson jets from QCD jets.
 
 ## Main notebooks in this tutorial
 
