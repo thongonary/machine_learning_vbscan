@@ -1,6 +1,6 @@
 # Machine Learning Tutorials
 
-Largely inspired from CMSDAS 2019 @LPC Machine Learning Exercise by Javier Duarte
+Basic ML concepts and frameworks. 
 
 ## Introduction
 
